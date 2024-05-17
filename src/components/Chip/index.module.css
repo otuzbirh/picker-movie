@@ -1,0 +1,18 @@
+.wrapper {
+  border-radius: var(--border-radius-light);
+}
+
+.sm {
+  font-size: 0.7rem;
+  padding: 6px 12px;
+}
+
+.md {
+  font-size: 0.83rem;
+  padding: 8px 14px;
+}
+
+.lg {
+  font-size: 0.91rem;
+  padding: 10px 16px;
+}

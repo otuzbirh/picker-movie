@@ -1,0 +1,10 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 1.3rem;
+}
+
+.rating span {
+  font-size: 1.3rem;
+}

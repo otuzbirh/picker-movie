@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  font-size: 1rem;
+}
+
+.sm {
+  gap: var(--spacing-sm);
+  font-size: 0.85rem;
+  max-width: 100px;
+}
+
+.md {
+  gap: var(--spacing-md);
+  font-size: 1rem;
+  max-width: 130px;
+}
+
+.lg {
+  gap: var(--spacing-lg);
+  font-size: 1.2rem;
+  max-width: 160px;
+}
+
+.imageWrapper {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sm .imageWrapper {
+  width: 80px;
+  height: 80px;
+}
+
+.md .imageWrapper {
+  width: 110px;
+  height: 110px;
+}
+
+.lg .imageWrapper {
+  width: 140px;
+  height: 140px;
+}
+
+.wrapper span {
+  font-size: inherit;
+  text-align: center;
+}

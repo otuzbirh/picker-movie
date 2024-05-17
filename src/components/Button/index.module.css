@@ -1,0 +1,27 @@
+.button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.button {
+  all: unset;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius-light);
+  cursor: pointer;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.lg {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.md {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+.sm {
+  padding: 4px 8px;
+  font-size: 0.7rem;
+}

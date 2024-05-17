@@ -1,0 +1,18 @@
+.wrapper {
+  border-radius: var(--border-radius-light);
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  background-color: var(--dark-5);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.wrapper input {
+  all: unset;
+  width: 100%;
+}
